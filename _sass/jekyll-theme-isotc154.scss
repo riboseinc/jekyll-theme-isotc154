@@ -1,0 +1,27 @@
+$widescreenBreakpoint: 1200px !default;
+$bigscreenBreakpoint: 900px !default;
+
+$primaryColor: #0061AD !default;
+$textColor: #222 !default;
+$linkColor: $primaryColor !default;
+
+$warningColor: red !default;
+$importantColor: orange !default;
+$accentColor: $primaryColor !default;
+
+$codeListingBorderColor: lighten($textColor, 70) !default;
+$codeListingBackgroundColor: rgba($textColor, 0.03) !default;
+
+$borderColor1: #F3F3F3 !default;
+$borderColor2: #EEEEEF !default;
+
+$lightBackgroundColor: #efeeee !default;
+
+$headerH: 100px !default;
+$logoSide: 80px !default;
+
+
+@import 'normalize';
+@import 'adoc-markup';
+@import 'main';
+@import 'events';
