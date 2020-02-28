@@ -1,0 +1,20 @@
+= ISO/TC154 Jekyll theme
+
+Jekyll theme developed by Ribose, intended to be used by official ISO technical committee websites.
+
+Currently used by ISO/TC154: https://www.isotc154.org.
+
+== Getting started
+
+Add the theme and corresponding helpers plugin gems to your Jekyll website:
+
+[source]
+--
+gem "jekyll-theme-isotc154", "~> 0.1.0"
+
+group :jekyll_plugins do
+  gem "jekyll-theme-isotc154-heleprs"
+end
+--
+
+Section to be completed.
